@@ -112,3 +112,9 @@ When installed from the GitHub repository, you will receive update notifications
 ## 👨‍💻 Author
 
 [**Spark451**](https://www.spark451.com/) – Creative & Marketing Technology
+
+## Changelog
+
+### 1.0.1
+* Update of readme
+* Test auto update
