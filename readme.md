@@ -115,6 +115,9 @@ When installed from the GitHub repository, you will receive update notifications
 
 ## Changelog
 
+### 1.0.2
+* Update of description
+
 ### 1.0.1
 * Update of readme
 * Test auto update
