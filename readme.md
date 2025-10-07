@@ -86,7 +86,28 @@ or
 
 ---
 
+## 🧠 Conditional Logic & Fallbacks
+✅ Fallback for single values
+
+If a query parameter doesn’t exist, you can define fallback text or HTML using the fallback attribute.
+
+```html
+[spark451_get_html_item key="first-name" fallback="<p>Welcome to Mississippi College!</p>"]
+```
+
+- If `?first-name=John` → outputs John
+- If missing → outputs `<p>Welcome to Mississippi College!</p>`
+
+
+You can also mark required keys inline with a ! or * prefix:
+
+```html
+[spark451_get_html_items !first_name,guid fallback="<h2>Welcome!</h2>"]
+  <h2>Hi {{first_name}}!</h2>
+[/spark451_get_html_items]
+```
 ## 🛡️ Security
+
 
 - All values are sanitized with `sanitize_text_field()`.
 - Output is escaped with `esc_html()` before display.
