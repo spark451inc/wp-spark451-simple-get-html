@@ -102,7 +102,7 @@ If a query parameter doesn’t exist, you can define fallback text or HTML using
 You can also mark required keys inline with a ! or * prefix:
 
 ```html
-[spark451_get_html_items !first_name,guid fallback="<h2>Welcome!</h2>"]
+[spark451_get_html_items !first_name guid fallback="<h2>Welcome!</h2>"]
   <h2>Hi {{first_name}}!</h2>
 [/spark451_get_html_items]
 ```
