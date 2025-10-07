@@ -115,6 +115,9 @@ When installed from the GitHub repository, you will receive update notifications
 
 ## Changelog
 
+### 1.0.3
+* Add fallback and conditional
+
 ### 1.0.2
 * Update of description
 
