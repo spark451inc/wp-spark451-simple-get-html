@@ -3,7 +3,7 @@
 Plugin Name: Spark451 - Simple GET HTML
 Plugin URI:  https://github.com/spark451inc/wp-spark451-simple-get-html
 Description: Powered by Spark451. For all info and changelogs, check: https://github.com/spark451inc/wp-spark451-simple-get-html
-Version:     1.0.3
+Version:     1.0.4
 Author:      Spark451.com
 Author URI:  https://www.spark451.com/
 License:     GPL-2.0+

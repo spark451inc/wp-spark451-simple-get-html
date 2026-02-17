@@ -13,9 +13,11 @@ Perfect for personalization, dynamic content, and quick campaign landing pages.
     - Go to **WordPress Admin → Plugins → Add New → Upload Plugin**.
     - Select the ZIP and click **Install Now**, then **Activate**.
 
-2. **Composer / Git (Advanced)**
-    - Place the plugin in your `/wp-content/plugins/` directory.
-    - Activate from **WordPress Admin → Plugins**.
+2. **Composer**
+    Run:
+    ```bash
+    composer require spark451inc/wp-spark451-simple-get-html
+    ```
 
 ---
 
@@ -135,6 +137,9 @@ When installed from the GitHub repository, you will receive update notifications
 [**Spark451**](https://www.spark451.com/) – Creative & Marketing Technology
 
 ## Changelog
+
+### 1.0.4
+* Add composer.json for Composer support
 
 ### 1.0.3
 * Add fallback and conditional
