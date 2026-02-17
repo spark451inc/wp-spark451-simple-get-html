@@ -14,7 +14,19 @@ Perfect for personalization, dynamic content, and quick campaign landing pages.
     - Select the ZIP and click **Install Now**, then **Activate**.
 
 2. **Composer**
-    Run:
+
+    Because this package is hosted on GitHub (not Packagist), you need to add the repository to your project's `composer.json` file:
+
+    ```json
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/spark451inc/wp-spark451-simple-get-html"
+      }
+    ]
+    ```
+
+    Then run:
     ```bash
     composer require spark451inc/wp-spark451-simple-get-html
     ```
